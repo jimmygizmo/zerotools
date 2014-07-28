@@ -1,0 +1,29 @@
+#### Git Ignore File
+# General-purpose suggestions.
+# Leave commented-out until needed.
+
+
+# OS-Generated
+.DS_Store
+
+
+#### IntelliJ IDEA
+.idea
+#*.iml
+#*.iws
+
+
+#### Eclipse
+#.classpath
+#.project
+#.settings/
+
+
+#### Maven
+#log/
+#target/
+
+
+##
+#
+
