@@ -3,8 +3,15 @@
 # Leave commented-out until needed.
 
 
-# OS-Generated
+# OSX-Generated
 .DS_Store
+#.localized
+
+
+# Windows-Generated
+#Thumbs.db
+#ehthumbs.db
+#Desktop.ini
 
 
 #### IntelliJ IDEA
