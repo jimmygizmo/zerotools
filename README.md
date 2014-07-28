@@ -1,4 +1,4 @@
 zerotools
 =========
 
-Small programs and modules for various tasks, created with both learning and teaching goals, in search of my own flavor of best-practice python for the enterprise or personal projects.
+Programs and modules for various tasks, created with the desire to learn as well as teach, in search of my own flavor of best-practice Python and Java for personal projects or for the enterprise.
