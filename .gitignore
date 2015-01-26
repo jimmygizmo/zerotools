@@ -7,6 +7,11 @@
 .DS_Store
 #.localized
 
+# Inter-commit local quick backups 
+.localbackups
+
+# Output/logfiles generated during development/testing
+*.log
 
 # Windows-Generated
 #Thumbs.db
@@ -16,7 +21,7 @@
 
 #### IntelliJ IDEA
 .idea
-#*.iml
+*.iml
 #*.iws
 
 
