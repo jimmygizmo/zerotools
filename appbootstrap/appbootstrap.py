@@ -12,7 +12,7 @@
 #    # Powerful/Flexible Logging    # Powerful Command-line Options and Help    # Clean/Commented Implementations
 #    # Core/Standard Python Modules Only    # PEP8 and Python Best Practices    # Clean Class & Program Structure
 #
-# Author: Jim Mannix
+# Author: Jimmy Gizmo
 # Organization: Ninth Device
 # http://ninthdevice.com
 # Version: 0.9
@@ -33,7 +33,7 @@
 #
 # The MIT License (MIT)
 #
-# Copyright (c) 2014 Jim Mannix, Ninth Device
+# Copyright (c) 2018 Jimmy Gizmo, Ninth Device
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
