@@ -320,7 +320,7 @@ def main():
 ################################################################################
 
 cmd_line_parser = argparse.ArgumentParser(
-    description="""This is the program description shown when the --help or -h command-line options are invoked."""
+    description="""This is the program description shown when the --help or -h command-line options are invoked. """
                 """Notice how triple-double quotes are used here and also notice how the first part of this """
                 """description has opening and closing quotes on each line with included space characters after """
                 """the last word on each line. The lower part of this description needs to use fixed-formatting """

@@ -6,13 +6,13 @@
 # treerun.py  v0.9
 # ---------------------
 #
-#    Traverse a directory tree. Use a callback
+#    Traverse a directory tree recursively. Use a callback.
 #
-# Author: Jim Mannix
+# Author: Jimmy Gizmo
 # Organization: Ninth Device
 # http://ninthdevice.com
 # Version: 0.9
-# Version date: 2015-07-28
+# Version date: 2018-06-25
 # Created: 2015-07-28
 #
 # Developed under Python 2.7.9. Should work with recent 2.7.* versions. Only standard/core modules are used.
@@ -29,7 +29,7 @@
 #
 # The MIT License (MIT)
 #
-# Copyright (c) 2015 Jim Mannix, Ninth Device
+# Copyright (c) 2018 Jimmy Gizmo, Ninth Device
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -149,7 +149,7 @@ class config:
     # This might be considered a hack, but it is a clean hack which works well for in-code configuration like this.
 
 config.app_nick = "treerun"  # Application Nickname. This will be used to name logfiles and more so it should
-# consist only of lower-case letters, numbers and underscore.
+# consist only of lower-case letters, numbers or underscore.
 
 config.log_filename = config.app_nick + ".log"
 
