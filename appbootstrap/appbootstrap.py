@@ -28,7 +28,7 @@
 #
 # License: MIT.
 # The MIT license is one of the most open, permissive and simple Open Source licenses. See LICENSE.txt at this URL:
-# GitHub repository: https://github.com/zerosyntax/zerotools
+# GitHub repository: https://github.com/jimmygizmo/zerotools
 #
 #
 # The MIT License (MIT)
