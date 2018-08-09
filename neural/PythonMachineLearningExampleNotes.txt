@@ -1,0 +1,48 @@
+This code comes from the tutorial by Jason Brownlee:
+Your First Machine Learning Project in Python Step-By-Step
+https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+
+
+I assempled the code in IntelliJ and built a virtualenv inside the project directory
+and installed the following modules inside the venv:
+scipy, numpy, matplotlib, pandas and sklearn.
+
+I did not need to nor did I include access to all global Python modules in the
+IntelliJ project structure options.
+
+When using IntelliJ IDEA Ultimate, you enjoy the great benefit of the SciView,
+which works with Brownlee's code, matplotlib and numpy to render wonderful
+graphical plots right in IntelliJ. I was amazed when I first saw this right in the IDE.
+
+Check out the above URL. It's a great tutorial and the code works great, especially
+in IntelliJ IDEA Ultimate.
+
+On a side note, I started the project and the venv on iCloud Drive, as I use multiple
+Macs against a common cloud-synced dev area, usually before I decide something is ready
+to go into git. So, when I first tried opening the project (and hence the venv) on 
+another Mac which is running an identical set of tools like IntelliJ, I ran into a small issue.
+
+The venv has never been activate on that Mac. Initially, IntelliJ gave me a big error about an
+invalid Python interpreter. I could not solve the problem by adjusting things in the Project
+Structure dialog, by trying to configure the -existing- venv. Still throwing invalid interpreter
+error and none of the module imports were good.
+
+SOLUTION: I quit IntelliJ and I opened up a regular terminal. I activate the virtualen in that terminal
+thereby setting the environment variables etc. THEN: I LAUNCHED INTELLIJ FROM THIS TERMINAL:
+] open /path/to/intellij/inside/the/mac/application/folder
+
+It worked.
+
+So, I don't know at this point if once the venv is deactivate this problem will return.
+I am looking for a better solution, like how can I get IntelliJ to just automatically
+activate a venv inside a project.
+
+Not that one wants to store all that python venv stuff with the project, especially in a repository,
+but it would be nice to be able to download the code and maybe also intellij project settings
+and then just open the project on perhaps one of many different workstations and have
+IntelliJ automatically activate the venv and NOT throw this invalid interpretor error, which
+is especially troubling at first since it is not apparent how to resolve it from within IntelliJ
+itself, even though it seems like a straightforword Project Structure issue.
+
+Jimmy Gizmo
+
