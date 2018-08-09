@@ -1,7 +1,7 @@
 zerotools
 =========
 
-Tools and modules in best-practice Python and C for personal or enterprise projects.
+Applications, tools and modules written in best-practice Python, Jave, Javascript, C and Perl for personal projects, enterprise projects or education. Jimmy Gizmo. http://ninthdevice.com
 
 ##
 #
