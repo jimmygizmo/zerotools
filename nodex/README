@@ -1,7 +1,26 @@
+####
+
+==== SETUP:
+
+SERVER:
+node install express
+node install socket.io
+
+CLIENT:
+Go to cdnjs.com and search for socket.io, the latest client code I grabbed
+referenced at:
+https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js
+Installed into pubstatic/js dir as sioclient211.js
+
+
+==== DEV SETUP:
+node install nodemon
+
+
+==== DEV USAGE:
 to start in dev mode:
 nodemon index
 
 
 ##
 #
-
