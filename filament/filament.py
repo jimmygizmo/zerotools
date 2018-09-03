@@ -12,20 +12,38 @@
 # command:
 # sudo dtruss -ap PID
 # This must be done as root hence the sudo. Substite the grepped PID.
-# If the threads have already been creaed when the dtruss command is run then
+# If the threads have already been created when the dtruss command is run then
 # no output will be seen.
 #
 
+import curses
 import threading
 import uuid
 import random
 import time
 
-NUMTHREADS = 2
 DEVMODE = True
+NUMTHREADS = 2
+
+scrn = curses.initscr()
+curses.noecho()  # Don't echo keypresses to terminal
+curses.cbreak()  # Realtime keypress response (no enter-key buffering)
+scrn.keypad(True)  # Enable label access to special keys (e.g. curses.KEY_LEFT)
+
+# Curses coordinate system is (Y, X) with (0, 0) top-left
+# Y range of lines is 0 to LINES - 1. X range of columns is 0 to COLS - 1.
+mainheight = curses.LINES
+mainwidth = curses.COLS
+mainmax_y = mainheight - 1
+mainmax_x = mainwidth - 1
+
+if DEVMODE:
+    print ("Screen height: {} - Screen width: {}"
+           .format(mainheight, mainwidth))
+
 MUCHMETAL = "platinum gold silver copper iron aluminum zinc lead nickel "\
             "cobalt chromium titanium tungsten magnesium mercury lithium "\
-            "sodium"
+            "sodium uranium manganese aluminum potassium cobalt"
 CHOICES = 8
 
 metals = MUCHMETAL.split()
@@ -40,7 +58,7 @@ def get_uuid():
     return uuid.uuid4()
 
 
-#  BASIC THREAD
+#  THREAD - BASIC
 #  ############################################################################
 def worker(seqid, uniqueid):
     threadname = threading.current_thread().getName()
@@ -70,6 +88,12 @@ def launch_threads_basic():
 launch_threads_basic()
 
 time.sleep(10)
+
+#  Return terminal window to normal behavior and release it from curses
+curses.nocbreak()
+scrn.keypad(False)
+curses.echo()
+curses.endwin()
 
 ##
 #
