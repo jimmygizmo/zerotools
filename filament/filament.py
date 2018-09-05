@@ -46,6 +46,7 @@ MUCHMETAL = "platinum gold silver copper iron aluminum zinc lead nickel "\
             "sodium uranium manganese aluminum potassium cobalt"
 CHOICES = 8
 
+metals = []
 metals = MUCHMETAL.split()
 
 # Use this sleep here before thread creation to be able to grep the PID
