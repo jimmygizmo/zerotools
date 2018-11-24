@@ -1,0 +1,13 @@
+####
+
+Python process table utility.
+Initial goal is to provide visibility into the activity of the threads of
+a multi-threaded python program.
+Tailored to Macos for now.
+
+Uses the psutils module for process table information.
+Uses the dtruss command line utlity for tracing thread system calls.
+
+##
+#
+
