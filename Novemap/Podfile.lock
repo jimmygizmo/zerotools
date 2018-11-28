@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.4.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - PusherSwift (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4.0)
+  - GoogleMaps
+  - PusherSwift (~> 4.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GoogleMaps
+    - PusherSwift
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  PusherSwift: 13257260d77445f44ee26d7843e9311186b26e79
+
+PODFILE CHECKSUM: ec8920a8e0207b4644e026b60291c5a89c2056a2
+
+COCOAPODS: 1.5.3
