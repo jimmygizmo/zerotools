@@ -1,5 +1,13 @@
 # .gitignore - Xcode Project
 
+xcuserdata/
+*/xcuserdata/*
+
+google-maps-api-key.txt
+
 Pods
+
+# WARNING must ignore this for now because it has Google API Key in it now.
+Novemap/AppDelegate.swift
 
 

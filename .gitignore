@@ -2,6 +2,11 @@
 # General-purpose suggestions.
 # Leave commented-out until needed.
 
+Pods/
+
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
 
 # OSX-Generated
 .DS_Store
@@ -20,6 +25,7 @@
 
 
 #### IntelliJ IDEA
+.venv/
 venv/
 .idea
 *.iml
