@@ -24,6 +24,8 @@ for line in res_arr:
         print(line)
     if r'Registrar: ' in line:
         print(line)
+    if r'Creation Date: ' in line:
+        print(line)
     if r'No match for domain' in line:
         #print(line)
         print('* * * * AVAILABLE * * * *')
